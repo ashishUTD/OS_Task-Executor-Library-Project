@@ -1,6 +1,3 @@
-This is a starter project can be used by teams as the foundation of their 
-TaskExecutor implementations. 
-
-The 'src' directory has been populated with the interfaces described in the project 
-placed into their required packages. Also included in this starter project is a the 
-class TaskExecutorImpl that will be completed by the teams along with the blocking FIFO.   
+The primary goal of this project is to implement the multithreaded synchronization needed to implement the TaskExecutor service. 
+The secondary goal of the project is to implement a Finite Bounded Buffer using only Java’s Object as monitors and without the use 
+of synchronized methods. Synchronized blocks are acceptable.
